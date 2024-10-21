@@ -1,0 +1,27 @@
+.green-bg {
+  background-color: #009640 !important;
+  color: #fff;
+}
+.green-bg:hover {
+  background-color: #fff !important;
+  color: #009640;
+  box-shadow: 0 0 10px #ddd;
+  border: 2px #464646;
+}
+.green-text {
+  color: #009640;
+}
+/* Navbar */
+.nav-link.active{
+  font-weight: 700;
+}
+/* Hero Section */
+.carousel-item {
+  height: 75vh; /* Mengatur tinggi item carousel menjadi 80vh */
+}
+
+.img-cover {
+  width: 100%; /* Memastikan gambar memenuhi lebar elemen */
+  height: 100%; /* Memastikan gambar memenuhi tinggi elemen */
+  object-fit: cover; /* Mengatur gambar agar menutupi seluruh area */
+}

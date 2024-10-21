@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-1" href="#"> <img src="img/Logo/logo-white.png" style="height: 2rem; width: 2rem" alt="" />Forest Care <span class="green-text"> Community</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#team">Our Team</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="text-white text-center position-relative" id="hero">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/hero-bg1.jpg" class="d-block img-cover" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/hero-bg2.jpg" class="d-block img-cover" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/hero-bg3.jpg" class="d-block img-cover" alt="..." />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="position-absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%)">
+        <h1 class="display-4">Forest Care Community</h1>
+        <p class="lead">Welcome to Forest Care Community</p>
+        <a href="#about" class="btn green-bg">Learn More</a>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 px-5">
+            <img src="img/Logo/logo.jpg" alt="About Us" class="img-fluid rounded" />
+          </div>
+          <div class="col-lg-7 px-4 py-5">
+            <h2 class="green-text">About Us</h2>
+            <p>
+              Forest Green Community is an initiative focused on sustainable development and environmental preservation. We believe that sustainability is not just a choice but an obligation for future generations. Through innovative
+              programs and collaboration with various stakeholders, we are committed to creating a healthy and friendly environment for all.
+            </p>
+            <p>Forest Care Community has been providing top-notch solutions since [Year]. Our commitment is to deliver high-quality services to our clients globally.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center green-text mb-4">Our Services</h2>
+        <div class="row">
+          <div class="col-lg-4 text-center">
+            <div class="icon-box">
+              <i class="bi bi-briefcase-fill"></i>
+              <h3>Educational Programs</h3>
+              <p>Workshops and seminars to enhance knowledge about sustainability.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 text-center">
+            <div class="icon-box">
+              <i class="bi bi-code-slash"></i>
+              <h3>Volunteering Activities</h3>
+              <p>Opportunities for community members to engage directly in preservation projects.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 text-center">
+            <div class="icon-box">
+              <i class="bi bi-bar-chart-fill"></i>
+              <h3>Sustainability Consulting</h3>
+              <p>Consultation services for individuals and organizations looking to adopt eco-friendly practices.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5">
+      <div class="container">
+        <h2 class="text-center green-text mb-4">Our Portfolio</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="img/portfolio.jpg" alt="Project 1" class="img-fluid" />
+            <h4>Project 1</h4>
+            <p>Description of project 1.</p>
+          </div>
+          <div class="col-lg-4">
+            <img src="img/portfolio.jpg" alt="Project 2" class="img-fluid" />
+            <h4>Project 2</h4>
+            <p>Description of project 2.</p>
+          </div>
+          <div class="col-lg-4">
+            <img src="img/portfolio.jpg" alt="Project 3" class="img-fluid" />
+            <h4>Project 3</h4>
+            <p>Description of project 3.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Team Section -->
+    <section id="team" class="bg-light py-4">
+      <div class="container">
+        <h2 class="text-center green-text mb-4">Our Team</h2>
+        <div class="row">
+          <div class="col-lg-4 text-center">
+            <img src="https://loremflickr.com/100/100/people?random=1" alt="Team Member 1" class="img-fluid rounded-circle" />
+            <h4>John Doe</h4>
+            <p>CEO</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <img src="https://loremflickr.com/100/100/people?random=2" alt="Team Member 2" class="img-fluid rounded-circle" />
+            <h4>Jane Smith</h4>
+            <p>CTO</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <img src="https://loremflickr.com/100/100/people?random=3" alt="Team Member 3" class="img-fluid rounded-circle" />
+            <h4>Mike Johnson</h4>
+            <p>COO</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center green-text mb-4">Contact Us</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18976.3414406858!2d122.7944331172031!3d-0.9373787803674047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d86a3ecb83a750d%3A0xe6b89a29058c5a5e!2sLuwuk%2C%20Soho%2C%20Luwuk%2C%20Kabupaten%20Banggai%2C%20Sulawesi%20Tengah!5e0!3m2!1sid!2sid!4v1729527256782!5m2!1sid!2sid"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="col-lg-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn green-bg">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2024 yhl. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
